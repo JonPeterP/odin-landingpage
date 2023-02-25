@@ -7,6 +7,10 @@ body {
     flex: 1;
 }
 
+button{
+    border: 0 none;
+    outline: 0 none;
+}
 
 
 .header-content,
@@ -197,15 +201,41 @@ button.header-signup {
     padding-top: 50px;
     padding-bottom: 50px; 
 
-    padding-left: 400px;
-    padding-right: 400px;
 
 }
 
 .modal-box{
     background-color: #3882f6;
+    display: flex;
+    width: 900px;
+    padding: 48px 52px 48px 52px;
+
+    margin: 0;
+    color:#F9FAF8;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 10px;
+
+    gap: 48px;
+}
+
+.modal-box .modal-body{
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: lighter;
 }
 
 .modal-box .modal-header{
-    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.modal-box button{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    font-size: 14px;
+    font-weight: 700;
 }
