@@ -153,13 +153,37 @@ button.header-signup {
     font-size: 18px;
 }
 
-.quote{
+#quote{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    min-height: 300px;
+
+    padding-top: 50px;
+    padding-bottom: 50px; 
+
+    padding-left: 400px;
+    padding-right: 400px;
+
 }
 
-.quote-txt{
+#quote h1{
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter   ;
+    font-weight: 100;
     color: #1F2937;
+
+ 
+    
+    
 }
+
+#quote h2{
+    align-self: flex-end;
+}
+
