@@ -239,3 +239,15 @@ button.header-signup {
     font-size: 14px;
     font-weight: 700;
 }
+
+#footer{
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    font-size: 16px;
+    color: #E5E7EB;
+    padding: 18px;
+}
